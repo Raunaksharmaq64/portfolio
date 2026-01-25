@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raunak Sharma | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Raunak Sharma - Java Developer, Web Developer, and Problem Solver."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome (for icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Welcome Popup -->
+    <div id="welcome-popup" class="popup-overlay">
+      <div class="popup-content">
+        <h2>Welcome! 👋</h2>
+        <p>May I know your name?</p>
+        <input type="text" id="visitor-name" placeholder="Enter your name" />
+        <button id="submit-name-btn">Let's Go 🚀</button>
+      </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+      <div class="logo">
+        <a href="#hero">Raunak</a>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <div class="theme-toggle" id="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </div>
+        <a href="assets/images/Raunak_Sharma .1.pdf" class="btn-resume"
+          >Resume <i class="fas fa-download"></i
+        ></a>
+        <div class="hamburger" id="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <span class="close-menu" id="close-menu">&times;</span>
+      <ul class="mobile-nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="video-background">
+        <!-- Placeholder for video. User needs to add 'assets/videos/hero-bg.mp4' -->
+        <video autoplay muted loop id="hero-video">
+          <source src="assets/videos/potfolieoVieo1.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p id="welcome-message" class="welcome-badge">Welcome, Visitor 👋</p>
+          <h2 id="greeting-text">Good Morning ☀️</h2>
+          <h1>I'm <span class="highlight-name">Raunak Sharma</span></h1>
+          <div class="skills-wrapper">
+            <span class="static-text">I am a </span>
+            <span class="dynamic-text"></span>
+          </div>
+          <p class="hero-desc">
+            Java Developer | Full Stack Learner | Problem Solver
+          </p>
+
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <div class="social-hero">
+            <a
+              href="https://www.linkedin.com/in/raunak-sharma-q64/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/Raunaksharmaq64" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/raunak_sharma73?igsh=MW14bHFjbHY2bWtybA=="
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Hotel Management System</h3>
+              <p class="tech-stack">Java • SQL • JDBC</p>
+              <p class="project-desc">
+                A comprehensive system to manage hotel bookings, rooms, and
+                staff efficiently.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn-sm"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+                <!-- <a href="#" class="btn-sm outline"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                > -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Java Projects & Console Based Games</h3>
+              <p class="tech-stack">JAVA</p>
+              <p class="project-desc"></p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Raunaksharmaq64/java-games-and-projects"
+                  class="btn-sm"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+                <!-- <a href="#" class="btn-sm outline"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                > -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p class="tech-stack">HTML • CSS • JS</p>
+              <p class="project-desc">
+                A modern, responsive personal portfolio with dynamic features
+                and theme toggle.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Raunaksharmaq64/my-portfolieo-website"
+                  class="btn-sm"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+                <a
+                  href="https://raunaksharmaq64.github.io/my-portfolieo-website/"
+                  class="btn-sm outline"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>JDBC</h3>
+              <p class="tech-stack">HTML • CSS • JS</p>
+              <p class="project-desc">
+                JAVA + SQL+JDBC Based Project.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Raunaksharmaq64/JDBC_PROJECTS"
+                  class="btn-sm"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+                <!-- <a
+                  href=""
+                  class="btn-sm outline"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                > -->
+              </div>
+            </div>
+          </div>
+
+          
+
+          <!-- Project 5-->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>DSA Visualizer</h3>
+              <p class="tech-stack">Java • Swing</p>
+              <p class="project-desc">
+                Interactive visualization of Data Structures and Algorithms to
+                aid learning.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Raunaksharmaq64/Java_files"
+                  class="btn-sm"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>UPCOMMING SOON.....</h3>
+              <p class="tech-stack">JAVA</p>
+              <p class="project-desc"></p>
+              <div class="project-links">
+                <a
+                  href="#"
+                  class="btn-sm"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+                <a href="#" class="btn-sm outline"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">My <span>Certificates</span></h2>
+        <div class="certificates-grid">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <h3>Java Full Stack</h3>
+            <p class="issuer">Issued by: Coursera</p>
+            <p class="date">Jan 2025</p>
+            <a href="#" class="link-text"
+              >View Certificate <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-database"></i></div>
+            <h3>SQL Masterclass</h3>
+            <p class="issuer">Issued by: Udemy</p>
+            <p class="date">Dec 2024</p>
+            <a href="#" class="link-text"
+              >View Certificate <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-code"></i></div>
+            <h3>Problem Solving (Basic)</h3>
+            <p class="issuer">Issued by: HackerRank</p>
+            <p class="date">Nov 2024</p>
+            <a href="#" class="link-text"
+              >View Certificate <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-wrapper">
+          <div class="about-image">
+            <!-- Placeholder for profile image -->
+            <img
+              src="assets/images/PROFILE.png"
+              alt="Raunak Sharma"
+              id="profile-img"
+            />
+          </div>
+          <div class="about-info">
+            <h3>Hello, I'm Raunak!</h3>
+            <p>
+              I am a passionate <strong>Java Developer</strong> and
+              <strong>Web Enthusiast</strong> currently studying at
+              <strong>LNCTS Bhopal</strong>. I love solving complex problems and
+              building efficient applications. My focus is on Backend
+              Development, Data Structures & Algorithms, and creating smooth
+              User Experiences.I believe learning is a never-ending process, and
+              I am committed to continuous self-improvement. I consistently work
+              on developing my skills, exploring new tools, and staying updated
+              with modern technologies. I enjoy facing challenges because they
+              help me grow and push my limits. My aim is to contribute my
+              knowledge, creativity, and efforts to build solutions that create
+              a positive impact and help shape a better world.
+            </p>
+
+            <div class="skills-list">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML/CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">DSA</span>
+              <span class="skill-tag">JDBC</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Cooming Soon.....</span>
+              
+            </div>
+
+            <div class="soft-skills">
+              <h4>Soft Skills</h4>
+              <ul>
+                <li><i class="fas fa-check-circle"></i> Teamwork</li>
+                <li><i class="fas fa-check-circle"></i> Consistent Learner</li>
+                <li><i class="fas fa-check-circle"></i> Communication</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>raunaksharma88630mt@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Bhopal, India</p>
+              </div>
+            </div>
+            <div class="social-links-square">
+              <a
+                href="https://www.linkedin.com/in/raunak-sharma-q64/"
+                class="social-box"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/Raunaksharmaq64" class="social-box"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="#" class="social-box"><i class="fas fa-code"></i></a>
+              <!-- LeetCode placeholder -->
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Raunak Sharma. All rights reserved.</p>
+        <p class="made-with">
+          Made with <i class="fas fa-heart"></i> & Caffeine
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
